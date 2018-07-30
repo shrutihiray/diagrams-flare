@@ -1,0 +1,55 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 20a15d9443215dc564045c9ff0b6cf27ff3a62c99a3d5da1f2c4fc4a560a8db4
+
+name:           diagrams-flare
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/diagrams-flare#readme>
+homepage:       https://github.com/githubuser/diagrams-flare#readme
+bug-reports:    https://github.com/githubuser/diagrams-flare/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/diagrams-flare
+
+
+executable diagrams-flare
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  default-language:    
+      Haskell2010
+  build-depends:
+      base >=4.7 && <5
+      , mtl
+      , mwc-random
+      , graph-generators
+      , fgl
+      , vector
+      , bytestring
+      , containers
+      , sort
+      , heap
+      , diagrams
+      , diagrams-contrib
+      , diagrams-core
+      , diagrams-lib
+      , diagrams-svg
+      , diagrams-cairo
+      , diagrams-graphviz
+      , diagrams-rasterific
+      , graphviz
+      , text
